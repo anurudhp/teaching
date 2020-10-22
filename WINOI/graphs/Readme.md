@@ -13,13 +13,17 @@ Some ZIO Problems:
 
 Lecture 2: Basic Algorithms
 ---------------------------
-Algorithms - DFS, BFS, DP on DAG
-Applications - Connected components, shortest paths.
+Algorithms - DFS, DP on DAG
+Applications - Connected components, DFS trees, DP.  
 
 Resources:
-1. [BFS](https://csacademy.com/lesson/breadth_first_search)
 1. [DFS](https://csacademy.com/lesson/depth_first_search)
 
-Problems:
+Easy Problems:
 1. [SPOJ/GRACON](https://www.spoj.com/problems/GRACON/)
+
+Hard Problems:
+1. [USACO/moocast](http://www.usaco.org/index.php?page=viewproblem2&cpid=668)
+1. [Kattis/birthday](https://open.kattis.com/problems/birthday)
+1. [CSES/tree-diameter](https://cses.fi/problemset/task/1131)
 
