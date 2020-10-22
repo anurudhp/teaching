@@ -13,8 +13,8 @@ Some ZIO Problems:
 
 Lecture 2: Basic Algorithms
 ---------------------------
-**Algorithms** - DFS, DP on DAG  
-**Applications** - Connected components, DFS trees, DP.  
+**Algorithms** - DFS  
+**Applications** - Connected components, DFS trees 
 
 Resources:
 1. [DFS](https://csacademy.com/lesson/depth_first_search)
