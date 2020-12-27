@@ -1,0 +1,42 @@
+#include <malloc.h>
+
+class VectorInt {
+  int *ptr;
+
+public:
+  VectorInt(int size = 0) { ptr = (int *)malloc(size * sizeof(int)); }
+  int get(int i) { return ptr[i]; }
+  void set(int i, int v) { ptr[i] = v; }
+};
+
+class VectorChar {
+  char *ptr;
+
+public:
+  VectorChar(int size = 0) { ptr = (char *)malloc(size * sizeof(char)); }
+  char get(int i) { return ptr[i]; }
+  void set(int i, char v) { ptr[i] = v; }
+};
+
+class VectorLong {
+  long *ptr;
+
+public:
+  VectorLong(int size = 0) { ptr = (long *)malloc(size * sizeof(long)); }
+  long get(int i) { return ptr[i]; }
+  void set(int i, long v) { ptr[i] = v; }
+};
+
+template <class T>
+class Vector {
+  T *ptr;
+
+public:
+  Vector(int size = 0) { ptr = (T *)malloc(size * sizeof(T)); }
+  T get(int i) { return ptr[i]; }
+  void set(int i, T v) { ptr[i] = v; }
+};
+
+using VI = Vector<int>;
+using VC = Vector<char>;
+using VL = Vector<long>;
