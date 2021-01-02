@@ -1,14 +1,14 @@
 Debugging Tips
 --------------
 
-1. Use `gdb`. Saves a lot of time, and it is very easy to catch segmentation faults.
+- Use `gdb`. Saves a lot of time, and it is very easy to catch segmentation faults.
 ```
 # compile with -g
 g++ -g prog.cpp -o prog
 # start the debugger
 gdb prog
 ```
-1. IDEs are useful: CLion, Codeblocks, VSCode etc. Usually come built in with interactive debuggers.
+- IDEs are useful: CLion, Codeblocks, VSCode etc. Usually come built in with interactive debuggers.
 
 Compiler Flags
 --------------
